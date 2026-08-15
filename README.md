@@ -1,6 +1,6 @@
 # 拾光 · 生活工作台
 
-一个集成式生活工作台，包含六大模块：
+一个集成式生活工作台，包含七大模块：
 
 - **今日概览** — 今日待办、习惯打卡、预算余量、最新体重一站看清
 - **记账理财** — 收支记录、预算管理、月度对比、分类筛选、消费结构环图
@@ -15,10 +15,22 @@
 所有数据实时存储于云端资料库数据表（共 9 张表），新增、修改、删除即时写回；
 换设备、换浏览器打开，数据都在。
 
-- 线上入口（GitHub Pages）：<https://xumingxuan-arch.github.io/life-workspace/>
-- 云端数据页（原始发布页）：<https://workbuddy.link/p/4heyQlu52VkpotYfzFSZq8>
+## 访问入口
+
+- **主入口（推荐）**：<https://workbuddy.link/p/4heyQlu52VkpotYfzFSZq8>
+  - 电脑、手机浏览器均可直接打开
+  - 数据实时云端同步
+- **GitHub 仓库**：<https://github.com/XuMingXuan-arch/life-workspace>
+  - 国内网络可能无法直接访问 GitHub Pages，建议优先使用上方主入口
+
+## 移动端适配说明
+
+本页面已针对移动端（手机）进行专项适配：
+- 底部固定 Tab 导航栏，方便单手操作
+- 锚点滚动切换各模块视图
+- 所有数据表单针对触控优化
 
 ## 文件结构
 
-- `index.html` — GitHub Pages 入口（加载云端数据页）
+- `index.html` — 入口重定向页（跳转至 workbuddy.link 主入口）
 - `life.html` — 工作台完整源码（单文件，直接打开即连接云端数据表）
